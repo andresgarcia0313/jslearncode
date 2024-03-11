@@ -1,6 +1,6 @@
 console.log("Bienvenidos");
+//importamos la libreria readline para poder leer la entrada del usuario
 const readline = require("readline").createInterface({
-  //importamos la libreria readline para poder leer la entrada del usuario
   input: process.stdin, //entrada
   output: process.stdout, //salida
 });
