@@ -21,8 +21,7 @@ const input = (message) => {
 const main = async () => {
   try {
     let data = await input("Por favor, ingresa el número: 😊 ");
-    //realizar la conversión a numero
-    data = parseInt(data);
+    data = parseInt(data); //realizar la conversión a numero
     console.log(`¡Hola! Gracias por ingresar esto: 🎉: ${data}`);
   } catch (error) {
     console.error("Error: ", error);
@@ -30,5 +29,4 @@ const main = async () => {
     readline.close();
   }
 };
-
 main(); //Ejecutamos la función principal
