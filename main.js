@@ -19,10 +19,16 @@ const input = (message) => {
  * Función principal que se encarga de pedir datos y mostrar un mensaje
  */
 const main = async () => {
-  let data = await input("Por favor, ingresa el número: 😊 ");
-  //realizar la conversión a numero
-  data=parseInt(data);
-  console.log(`¡Hola! Gracias por ingresar esto: 🎉: ${data}`);
+  try {
+    let data = await input("Por favor, ingresa el número: 😊 ");
+    //realizar la conversión a numero
+    data = parseInt(data);
+    console.log(`¡Hola! Gracias por ingresar esto: 🎉: ${data}`);
+  } catch (error) {
+    console.error("Error: ", error);
+  } finally {
+    readline.close();
+  }
 };
 
 main(); //Ejecutamos la función principal
