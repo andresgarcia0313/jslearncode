@@ -37,7 +37,10 @@ Este proyecto te guiará a través de:
    - Navegador web moderno (Chrome, Firefox, Edge)
 
 🌟 **¡Únete a nosotros en este emocionante viaje de aprendizaje! JavaScript te espera en la línea de comandos y en la expansiva web, ¡vamos a explorar juntos!** 🌐
+ 
+# Características
 
+1.1.1 Se agrega imprimir consola con una función input
 
 # Upload package to npm
 
